@@ -1,0 +1,5 @@
+Some time sql server is running but workbench does'nt get connected with the server due to:
+-> Root cause: I've found the solutions for this problem. This was because of the MySQL Workbench couldn't store password in keychain and also because it failed to connect to mysql at 127.0.0.1:3306 with user root access denied for user 'root'@'localhost'(using password:YES).
+
+Solution: type this command in the terminal:
+-> sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
