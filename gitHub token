@@ -1,0 +1,21 @@
+1. Token for github: utkarsh-jbm: utkarsh.gaur@jbmgroup.com
+
+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
+
+------------------------------------------------------------------------------------------
+2. Pulling first when repository have something the you do not have locally:
+
+* git pull origin master --allow-unrelated-histories
+* git push -u origin master
+------------------------------------------------------------------------------------------
+
+3. Steps to push code:
+
+* goto folder containing project file.
+* Open terminal
+* git init
+* git add .
+* git commit -m "message"
+* git remote add origin "url from github"
+* git pull origin master --allow-unrelated-histories (if required)
+* git push -u origin master
