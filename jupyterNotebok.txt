@@ -1,0 +1,6 @@
+Error:  500: Internal server error
+
+if this error occurs in the jupyter notebook then go to terminal.
+
+$ pip install --upgrade jupyterhub
+$ pip install --upgrade --user nbconvert
